@@ -1,0 +1,2 @@
+For email validation =>  (!filter_var(), FILTER_VALIDATE_EMAIL);
+For website validation =>  (!filter_var(), FILTER_VALIDATE_URL);
