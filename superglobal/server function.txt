@@ -1,0 +1,6 @@
+
+
+Find file location =      echo $_SERVER['PHP_SELF'];
+Find website adress  =    echo $_SERVER['SERVER_NAME'];
+Find which browser  =     echo $_SERVER['HTTP_USER_AGENT'];
+Find server ip addresss = echo $_SERVER['SERVER_ADDR'];
