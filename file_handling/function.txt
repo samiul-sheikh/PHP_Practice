@@ -1,0 +1,8 @@
+php.net file open
+
+for read => echo readfile("text.txt");
+for print full => echo fread($ourfile, filesize("text.txt"));
+for 1st line => echo fgets($ourfile, filesize("text.txt"));
+for 1st character => echo fgetc($ourfile);
+count all first - last => while(!feof($ourfile)){
+                        echo fgets($ourfile)."<br/>";
